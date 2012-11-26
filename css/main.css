@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Ubuntu-L';
+  src: url('../font/Ubuntu-L-webfont.ttf') format('truetype');
+}
+
+@font-face{ 
+    font-family: 'WebIconFonts';
+    src: url('../font/icon/webiconfonts.eot');
+    src: url('../font/icon/WebIconFonts.eot?') format('eot'),
+         url('../font/icon/WebIconFonts.woff') format('woff'),
+         url('../font/icon/WebIconFonts.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CARMINA';
+  src: url('../font/TT0667M_.ttf') format('truetype');
+}
+
+h1 {
+	font-family: 'CARMINA', serif;
+	font-size: 112px;
+	margin: 30px;
+}
+
+h2 {
+	font-family: 'CARMINA', serif;
+	font-size: 32px;
+	margin: 30px 0px 10px 20px;
+	color: #005;
+	letter-spacing: 0.1em;
+}
+
+body {
+	margin: 0px;
+	font-family: 'CARMINA', serif;
+	background-image: url("../img/light_wool.png");
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#main {
+	width: 800px;
+	margin: 10px auto ;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0px;
+	height: 20px;
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	border-bottom: solid 20px #000;
+}
+
+#footer_logo {
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+	text-align: right;
+}
+
+#contents {
+	margin: 10px 0px 20px 30px;
+	padding: 20px 0px;
+}
+
+.icon {
+	font-family: WebIconFonts;
+	font-size: 100px;
+	margin: 30px;
+}
+
+#profile {
+	padding-bottom: 10px;
+}
+
+#profile_icon {
+	float: left;
+}
+
+#profile_contents {
+	padding-left: 200px;
+}
+
+.profile_list {
+	letter-spacing: 0.1em;
+}
+
+.profile_text {
+	font-weight: bold;
+	font-size: 24px;
+	text-indent: 1em;
+	margin-top: 0.4em;
+	line-height: 0.5em;
+	letter-spacing: 0.3em;
+}
+
+#myface {
+	margin: 10px 40px;
+}
+
+.social{
+	font-family: WebIconFonts;
+	margin: 0px 0px 30px 60px;
+	padding: 10px 0px;
+}
+
+.social a {
+	font-size: 40px;
+	margin: 5px;
+	background-color: white;
+}
